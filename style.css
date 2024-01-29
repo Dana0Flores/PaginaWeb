@@ -1,0 +1,84 @@
+header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img{
+    height: 80px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li{
+    margin: 20px 30px 20px 30px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+
+.carrucel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+.cuadros-crr{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+main{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0 25px 0;
+}
+.cajas-main{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+main>div>img{
+    border-radius: 50%;
+}
+main>div>h2{
+    color: rgb(79, 93, 161);
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main>div>p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.mapa{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 102, 102);
+    color: #fff;
+}
